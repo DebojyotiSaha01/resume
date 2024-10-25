@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e0f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4em 1em;
+    background-color: #00b4d8;
+    color: #fff;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Slider without animation, 1:1 ratio */
+.slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    gap: 10px;
+    padding: 2em 0;
+}
+
+.slides img {
+    width: 300px;         /* Fixed width for 1:1 ratio */
+    height: 300px;        /* Fixed height for 1:1 ratio */
+    object-fit: cover;    /* Ensures images fill the square container */
+    border-radius: 10px;  /* Optional: rounds corners for a smoother look */
+}
+
+/* About Section */
+.about, .products, .video-placeholder, .contact {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.product-item {
+    padding: 1em;
+    background-color: #90e0ef;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.social a {
+    margin: 0 0.5em;
+    color: #0077b6;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0077b6;
+    color: #fff;
+    margin-top: 1em;
+}
